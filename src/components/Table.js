@@ -17,6 +17,7 @@ const Table = ({ sat }) => {
           places them into corresponding locations using index from .map() */}
           {sat.map((sat, index) => (
             <tr key={index}>
+              {/* Each td is a column. each index is a row. */}
               <td>{sat.name}</td>
               <td>{sat.type}</td>
               <td>{sat.launchDate}</td>
